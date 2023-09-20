@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 5</name>
+    <events>
+        <variable constant="0" name="finish" sid="246970718349687" static="0" type="number">0</variable>
+        <variable constant="0" name="dialogue" sid="314616882387610" static="0" type="number">0</variable>
+        <event-block sid="496427049316623">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="312484322119261" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="750986953610159" type="System">
+                    <param id="0" name="Variable">dialogue</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="234099166859062">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="384704101838438" type="System">
+                    <param id="0" name="Variable">dialogue</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="535448222674289" type="System">
+                    <param id="0" name="Interval (seconds)">0.02</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="262673264438450" type="Dialogue1">
+                    <param id="0" name="Text">left(para1.text,len(Dialogue1.Text)+1)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

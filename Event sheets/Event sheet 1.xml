@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="510286530079110">
+            <conditions>
+                <condition id="2" name="Key is down" sid="463224020280216" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="187671434391649" type="Sprite">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="800060940010433">
+            <conditions>
+                <condition id="2" name="Key is down" sid="642301691368520" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="660214882771196" type="Sprite">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="137058563940414">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="364265530565480" type="Sprite" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="158605572034927">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="547234788185844" type="Sprite" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="711727433819973" type="Sprite">
+                            <param id="0" name="Animation">&quot;Run&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="903487601296151">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="338340696978975" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="706182639511536" type="Sprite">
+                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="786946204556413">
+            <conditions>
+                <condition behavior="Platform" id="4" name="Is falling" sid="541530327391544" type="Sprite" />
+                <condition behavior="Platform" id="2" name="Is on floor" sid="227550378066934" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="874909254462286" type="Sprite">
+                    <param id="0" name="Animation">&quot;Fall&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="903679500158073">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="695222196643227" type="Sprite" />
+                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="130937532386468" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="103897039490873" type="Sprite">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
