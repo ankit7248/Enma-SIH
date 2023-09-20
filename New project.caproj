@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>3840</width>
+        <height>2160</height>
+    </window-size>
+    <pixel-rounding>1</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>MainMenu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="689458353414029">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="281225895995186">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="398858405124781" speed="15">
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (1).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (2).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (3).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (4).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (5).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (6).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (7).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (8).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (9).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.445441" y="0.882249" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Idle (10).png">
+                        <collision-poly>
+                            <point x="0.472347" y="0.137082" />
+                            <point x="0.63976" y="0.059754" />
+                            <point x="0.80568" y="0.323374" />
+                            <point x="0.766816" y="0.880492" />
+                            <point x="0.428065" y="0.883568" />
+                            <point x="0.433483" y="0.546573" />
+                            <point x="0.366218" y="0.3058" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="670331879661604" speed="15">
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (1).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.832586" y="0.87522" />
+                            <point x="0.43722" y="0.884886" />
+                            <point x="0.390135" y="0.676625" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (2).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.792227" y="0.799649" />
+                            <point x="0.547833" y="0.911247" />
+                            <point x="0.41704" y="0.808435" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (3).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.832586" y="0.838313" />
+                            <point x="0.420777" y="0.858523" />
+                            <point x="0.390135" y="0.676625" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (4).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.780269" y="0.847101" />
+                            <point x="0.386398" y="0.847979" />
+                            <point x="0.390135" y="0.676625" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (5).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.790732" y="0.878735" />
+                            <point x="0.446188" y="0.877856" />
+                            <point x="0.390135" y="0.676625" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (6).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.721973" y="0.776802" />
+                            <point x="0.62556" y="0.907733" />
+                            <point x="0.461883" y="0.7768" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (7).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.736921" y="0.790862" />
+                            <point x="0.474589" y="0.869068" />
+                            <point x="0.408072" y="0.669595" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Run (8).png">
+                        <collision-poly>
+                            <point x="0.361734" y="0.272408" />
+                            <point x="0.494768" y="0.108963" />
+                            <point x="0.649477" y="0.033392" />
+                            <point x="0.780269" y="0.304042" />
+                            <point x="0.811659" y="0.871705" />
+                            <point x="0.425262" y="0.855009" />
+                            <point x="0.390135" y="0.676625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="11" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="466470044997706" speed="10">
+                    <frame duration="1" hotspotX="0.141343" hotspotY="0.501129" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (2).png" />
+                    <frame duration="1" hotspotX="0.109929" hotspotY="0.496583" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (3).png" />
+                    <frame duration="1" hotspotX="0.312281" hotspotY="0.547325" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (4).png" />
+                    <frame duration="1" hotspotX="0.301754" hotspotY="0.547325" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (5).png" />
+                    <frame duration="1" hotspotX="0.291228" hotspotY="0.546392" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (6).png" />
+                    <frame duration="1" hotspotX="0.291228" hotspotY="0.546392" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (7).png" />
+                    <frame duration="1" hotspotX="0.301754" hotspotY="0.546392" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (8).png" />
+                    <frame duration="1" hotspotX="0.308772" hotspotY="0.547325" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (9).png" />
+                    <frame duration="1" hotspotX="0.225" hotspotY="0.54329" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (10).png" />
+                    <frame duration="1" hotspotX="0.209459" hotspotY="0.521445" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (11).png" />
+                    <frame duration="1" hotspotX="0.184116" hotspotY="0.516556" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (12).png" />
+                </animation>
+                <animation framecount="4" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="410979735522237" speed="5">
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (9).png">
+                        <collision-poly>
+                            <point x="0.467863" y="0.128295" />
+                            <point x="0.647235" y="0.0246046" />
+                            <point x="0.802691" y="0.3058" />
+                            <point x="0.736921" y="0.493849" />
+                            <point x="0.657698" y="0.887522" />
+                            <point x="0.499253" y="0.862917" />
+                            <point x="0.400598" y="0.725835" />
+                            <point x="0.367713" y="0.267135" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (10).png">
+                        <collision-poly>
+                            <point x="0.535127" y="0.119508" />
+                            <point x="0.733931" y="0.0544815" />
+                            <point x="0.831091" y="0.372584" />
+                            <point x="0.674141" y="0.622144" />
+                            <point x="0.7429" y="0.86116" />
+                            <point x="0.61435" y="0.862917" />
+                            <point x="0.411061" y="0.813708" />
+                            <point x="0.411061" y="0.253075" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (11).png">
+                        <collision-poly>
+                            <point x="0.57997" y="0.114235" />
+                            <point x="0.807175" y="0.089631" />
+                            <point x="0.850523" y="0.434095" />
+                            <point x="0.674141" y="0.622144" />
+                            <point x="0.804185" y="0.766257" />
+                            <point x="0.666667" y="0.869947" />
+                            <point x="0.391629" y="0.84007" />
+                            <point x="0.445441" y="0.230228" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500747" hotspotY="0.500879" original-source="C:\Users\Anuj Ravi Rane\Downloads\redhatfiles\png\Jump (12).png">
+                        <collision-poly>
+                            <point x="0.57997" y="0.114235" />
+                            <point x="0.807175" y="0.089631" />
+                            <point x="0.850523" y="0.434095" />
+                            <point x="0.674141" y="0.622144" />
+                            <point x="0.80269" y="0.796134" />
+                            <point x="0.651719" y="0.88928" />
+                            <point x="0.431988" y="0.829525" />
+                            <point x="0.434978" y="0.24956" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="726336860893516">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="653873083344679">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248072351295138" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="655427870164269">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite3" sid="641977593658350">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766303517073589" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\Abstract Platformer\PNG\Backgrounds\set3_background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="537209129848160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640241470708219" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500805" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\Abstract Platformer\PNG\Backgrounds\set3_tiles.png">
+                        <collision-poly>
+                            <point x="0.100352" y="0.183575" />
+                            <point x="0.5" y="0.041868" />
+                            <point x="0.757923" y="0.442834" />
+                            <point x="1" y="0.499195" />
+                            <point x="0.877641" y="0.776167" />
+                            <point x="0.5" y="0.644122" />
+                            <point x="0.0228873" y="0.958132" />
+                            <point x="0" y="0.499195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="989577519422469">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760914284294839" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\Abstract Platformer\PNG\Backgrounds\set3_hills.png">
+                        <collision-poly>
+                            <point x="0.355236" y="0.720833" />
+                            <point x="0.749487" y="0.508333" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="706757497749879">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897452175292159" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500805" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\Abstract Platformer\PNG\Backgrounds\set2_tiles.png">
+                        <collision-poly>
+                            <point x="0.100352" y="0.183575" />
+                            <point x="0.5" y="0.041868" />
+                            <point x="0.757923" y="0.442834" />
+                            <point x="1" y="0.499195" />
+                            <point x="0.877641" y="0.776167" />
+                            <point x="0.5" y="0.644122" />
+                            <point x="0.0228873" y="0.958132" />
+                            <point x="0" y="0.499195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play" sid="774646418659918">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="200471287142150" speed="5">
+                    <frame duration="1" hotspotX="0.502326" hotspotY="0.505155" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\button\Play1.png">
+                        <collision-poly>
+                            <point x="0.0372093" y="0.0824742" />
+                            <point x="0.497674" y="0.0206186" />
+                            <point x="0.95814" y="0.0927835" />
+                            <point x="0.990698" y="0.494845" />
+                            <point x="0.953488" y="0.896907" />
+                            <point x="0.497674" y="0.948454" />
+                            <point x="0.0418605" y="0.907216" />
+                            <point x="0.00930233" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="521546242860653">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186486714519150" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\button 2\Button_13.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0684211" />
+                            <point x="0.497268" y="0" />
+                            <point x="0.912568" y="0.0842105" />
+                            <point x="0.972678" y="0.5" />
+                            <point x="0.896175" y="0.9" />
+                            <point x="0.497268" y="0.952632" />
+                            <point x="0.0874317" y="0.915789" />
+                            <point x="0.00546448" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="325910082433321">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458298118592740" speed="5">
+                    <frame duration="1" hotspotX="0.500998" hotspotY="0.501441" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_19.png">
+                        <collision-poly>
+                            <point x="0.011976" y="0.0172911" />
+                            <point x="0.499002" y="0.00288184" />
+                            <point x="0.982036" y="0.0259366" />
+                            <point x="0.976048" y="0.965418" />
+                            <point x="0.0179641" y="0.974063" />
+                            <point x="0.00199601" y="0.498559" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MovOp" sid="487781726880880">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="679121173646810" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_30.png">
+                        <collision-poly>
+                            <point x="0.0204082" y="0.1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.979592" y="0.1" />
+                            <point x="0.979592" y="0.9" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0204082" y="0.9" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="737830299819912">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Patent" sid="378819395976174">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="492527211667889">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Text" sid="483657321363728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="443301881765778">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Design" sid="540473903292961">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Copyright" sid="149986911368072">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Trademark" sid="885058368954532">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Easy" sid="811373749490263">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Medium" sid="310255176919658">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Hard" sid="864313241665084">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteFont2" sid="276523181337503">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite9" sid="663450484151940">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248951496533760" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_18.png">
+                        <collision-poly>
+                            <point x="0.0776892" y="0.0965347" />
+                            <point x="0.5" y="0.00247525" />
+                            <point x="0.918327" y="0.101485" />
+                            <point x="0.988048" y="0.5" />
+                            <point x="0.976096" y="0.970297" />
+                            <point x="0.0199203" y="0.975248" />
+                            <point x="0.00199203" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DialogueBox" sid="339293012956941">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773557636131411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_18.png">
+                        <collision-poly>
+                            <point x="0.0776892" y="0.0965347" />
+                            <point x="0.5" y="0.00247525" />
+                            <point x="0.918327" y="0.101485" />
+                            <point x="0.988048" y="0.5" />
+                            <point x="0.976096" y="0.970297" />
+                            <point x="0.0199203" y="0.975248" />
+                            <point x="0.00199203" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="para1" sid="158433710598112">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Para2" sid="639368681977409">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="908706269639096">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialogue1" sid="884492200981481">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Para3" sid="463667073186138">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialogue2" sid="652702674783473">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite10" sid="221045081419211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="544767509686984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Downloads\Map interface.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="902048909431704">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498418401875882" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\Window.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="445877230071718">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="376992339601900" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_47.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.00952381" />
+                            <point x="0.962264" y="0.495238" />
+                            <point x="0.839623" y="0.838095" />
+                            <point x="0.5" y="0.885714" />
+                            <point x="0.169811" y="0.828571" />
+                            <point x="0.0377358" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="518164101883675">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182595687539023" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501859" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window-Copy_77.png">
+                        <collision-poly>
+                            <point x="0.189189" y="0.364312" />
+                            <point x="0.5" y="0.063197" />
+                            <point x="0.810811" y="0.364312" />
+                            <point x="0.866795" y="0.498141" />
+                            <point x="0.913127" y="0.832714" />
+                            <point x="0.5" y="0.750929" />
+                            <point x="0.0830116" y="0.840149" />
+                            <point x="0.129344" y="0.498141" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="453774973087721">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493367968086285" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window-Copy_78.png">
+                        <collision-poly>
+                            <point x="0.168724" y="0.376147" />
+                            <point x="0.5" y="0.0366972" />
+                            <point x="0.831276" y="0.376147" />
+                            <point x="0.880658" y="0.5" />
+                            <point x="0.921811" y="0.825688" />
+                            <point x="0.5" y="0.688073" />
+                            <point x="0.0802469" y="0.821101" />
+                            <point x="0.119342" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="houseSelect" sid="699143955644146">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="604937305124768" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="406588524763732">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="494061770239038">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Idle1" pingpong="0" repeatcount="1" repeatto="0" sid="396931409170790" speed="5">
+                    <frame duration="1" hotspotX="2.8186" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Downloads\pngegg (8).png">
+                        <collision-poly>
+                            <point x="0.455814" y="0.162896" />
+                            <point x="1" y="0.0226244" />
+                            <point x="1" y="0.0848416" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="0.912896" />
+                            <point x="1" y="0.989819" />
+                            <point x="0.00930233" y="0.945701" />
+                            <point x="1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="127828978578790" speed="24">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile000.png" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile001.png" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile002.png" />
+                    <frame duration="1" hotspotX="0.501805" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MainCharacter" sid="819813710072475">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="525003684984499">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Idle2" pingpong="0" repeatcount="1" repeatto="0" sid="762228046956033" speed="15">
+                    <frame duration="1" hotspotX="0.505155" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Downloads\pngegg (8).png">
+                        <collision-poly>
+                            <point x="0.186603" y="0.0430464" />
+                            <point x="0.497608" y="0.0253863" />
+                            <point x="0.779904" y="0.0507726" />
+                            <point x="0.837321" y="0.5" />
+                            <point x="0.76555" y="0.945916" />
+                            <point x="0.497608" y="0.986755" />
+                            <point x="0.0909091" y="0.979029" />
+                            <point x="0.239234" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="913939313873309" speed="15">
+                    <frame duration="1" hotspotX="0.254144" hotspotY="0.458937" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile000.png" />
+                    <frame duration="1" hotspotX="0.301724" hotspotY="0.460048" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile001.png" />
+                    <frame duration="1" hotspotX="0.485981" hotspotY="0.458738" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile002.png" />
+                    <frame duration="1" hotspotX="0.627586" hotspotY="0.459135" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile003.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="356347646229037">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712531411355624" speed="5">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\Character images\tile006.png">
+                        <collision-poly>
+                            <point x="0.688172" y="0.391837" />
+                            <point x="0.498208" y="0.84898" />
+                            <point x="0.774194" y="0.128571" />
+                            <point x="0.928315" y="0.5" />
+                            <point x="0.896057" y="0.940816" />
+                            <point x="0.498208" y="0.906122" />
+                            <point x="0.616487" y="0.64898" />
+                            <point x="0.609319" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="419936781670764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907787144258756" speed="5">
+                    <frame duration="1" hotspotX="0.500505" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\my project.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="819285949649085">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761924435880906" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\level2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite19" sid="293973294879957">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="329759635313468" speed="5">
+                    <frame duration="1" hotspotX="0.500513" hotspotY="0.502732" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\level3333.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="894555080965131">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="411108230886579">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477698358122057" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj1" sid="895807040047821">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337597522633886" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj2" sid="553038647561218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929137093634930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj3" sid="669903697062697">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="118876053374388" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj4" sid="789560074695016">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706552531793980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obj5" sid="593344654184843">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707628899244904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="959056890113965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665846701549022" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\GUI\Basi GUI bundle\ButtonsText\PremadeButtons_Check.png">
+                        <collision-poly>
+                            <point x="0.0858209" y="0.0858209" />
+                            <point x="0.5" y="0.00373134" />
+                            <point x="0.914179" y="0.0858209" />
+                            <point x="0.996269" y="0.5" />
+                            <point x="0.914179" y="0.914179" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0858209" y="0.914179" />
+                            <point x="0.00373134" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="686776200353596">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600243649741126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MCQ" sid="327684951600028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837722025420090" speed="5">
+                    <frame duration="1" hotspotX="0.500829" hotspotY="0.501035" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_06.png">
+                        <collision-poly>
+                            <point x="0.0945274" y="0.118012" />
+                            <point x="0.499171" y="0" />
+                            <point x="0.905473" y="0.118012" />
+                            <point x="0.99005" y="0.498965" />
+                            <point x="0.980099" y="0.975155" />
+                            <point x="0.0149254" y="0.981366" />
+                            <point x="0" y="0.498965" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="105520070718278">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Question" sid="921240213974863">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="600081976025779">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Level.xml</layout>
+        <layout>MainMenu.xml</layout>
+        <layout>Options.xml</layout>
+        <layout>Easy.xml</layout>
+        <layout>Interface.xml</layout>
+        <layout>Map.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Event sheet 6.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Mouse" uid="12" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

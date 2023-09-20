@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <variable constant="0" name="Select" sid="518474908949716" static="0" type="number">0</variable>
+        <event-block sid="397319271061779">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="893807167472916" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="168279694623210">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="147127587390524" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="127813486687522" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="143126633866415">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="279889846003432" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="681884900534041" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="315415529750814">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="878338223356721" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="952316652395095">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="409127273894021" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="662089343076953" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="829444880786316">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="830673471017323" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="533439666866918" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="334226132335345">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="390011659498770" type="System">
+                    <param id="0" name="Variable">Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="518785097906583" type="MovOp">
+                    <param id="0" name="X">2012</param>
+                    <param id="1" name="Y">672</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="253041972434429">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="798858240717025" type="System">
+                    <param id="0" name="Variable">Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="195819833612850" type="MovOp">
+                    <param id="0" name="X">2012</param>
+                    <param id="1" name="Y">864</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="540723220457531">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="110208620292819" type="System">
+                    <param id="0" name="Variable">Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="762862638984432" type="MovOp">
+                    <param id="0" name="X">2012</param>
+                    <param id="1" name="Y">1088</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="863817985822215">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="731655597111126" type="System">
+                    <param id="0" name="Variable">Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="457762661326805" type="MovOp">
+                    <param id="0" name="X">2012</param>
+                    <param id="1" name="Y">1280</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="357184527696451">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="845023635751842" type="Keyboard">
+                    <param id="0" name="Key">13</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="524396259266150">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="823549782875833" type="System">
+                            <param id="0" name="Variable">Select</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="554334434016853" type="System">
+                            <param id="0" name="Layout">Easy</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="102981915887013">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="329853024118833" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Patent</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="321360120458845" type="System">
+                    <param id="0" name="Layout">Easy</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
