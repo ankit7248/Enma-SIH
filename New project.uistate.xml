@@ -15,13 +15,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Easy</layout>
         <layout order="6">Interface</layout>
         <layout order="8">Map</layout>
-        <layout active="1" order="11">Level</layout>
+        <layout order="11">Level</layout>
         <event-sheet order="1">Event sheet 2</event-sheet>
         <event-sheet order="3">Event sheet 3</event-sheet>
         <event-sheet order="5">Event sheet 4</event-sheet>
         <event-sheet order="7">Event sheet 5</event-sheet>
         <event-sheet order="9">Event sheet 6</event-sheet>
-        <event-sheet order="10">Event sheet 1</event-sheet>
+        <event-sheet active="1" order="10">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -69,7 +69,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/obj4/" />
         <folder expanded="1" path="animation-folder/obj5/" />
         <folder expanded="1" path="animation-folder/Sprite21/" />
-        <folder expanded="1" path="animation-folder/Sprite22/" />
+        <folder expanded="1" path="animation-folder/mininote/" />
         <folder expanded="1" path="animation-folder/MCQ/" />
+        <folder expanded="1" path="animation-folder/Right1/" />
+        <folder expanded="1" path="animation-folder/Sprite22/" />
+        <folder expanded="1" path="animation-folder/full/" />
+        <folder expanded="1" path="animation-folder/Sprite23/" />
+        <folder expanded="1" path="animation-folder/Exit/" />
+        <folder expanded="1" path="animation-folder/Sprite24/" />
+        <folder expanded="1" path="animation-folder/Complete/" />
     </folders-expanded>
 </c2uistate>
