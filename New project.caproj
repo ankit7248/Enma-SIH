@@ -819,7 +819,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite22" sid="686776200353596">
+        <object-type name="mininote" sid="686776200353596">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600243649741126" speed="5">
@@ -851,8 +851,109 @@
         <object-type name="Question" sid="921240213974863">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text6" sid="600081976025779">
+        <object-type name="Bans" sid="600081976025779">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Right1" sid="722399561116170">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367019007899654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\GUI\Basi GUI bundle\ButtonsText\PremadeButtons_Check.png">
+                        <collision-poly>
+                            <point x="0.0858209" y="0.0858209" />
+                            <point x="0.5" y="0.00373134" />
+                            <point x="0.914179" y="0.0858209" />
+                            <point x="0.996269" y="0.5" />
+                            <point x="0.914179" y="0.914179" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0858209" y="0.914179" />
+                            <point x="0.00373134" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="639625876042180">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104394857213008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501873" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\GUI\Basi GUI bundle\ButtonsText\PremadeButtons_XRed.png">
+                        <collision-poly>
+                            <point x="0.146617" y="0.146067" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853383" y="0.146067" />
+                            <point x="1" y="0.498127" />
+                            <point x="0.853383" y="0.853933" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146617" y="0.853933" />
+                            <point x="0" y="0.498127" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="full" sid="652005658659757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583622801896161" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="599072008316758">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310486453247217" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Exit" sid="149838808189630">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745027586304050" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Last" sid="898789807749739">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite24" sid="811823502040714">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="471655522587207" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501639" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_10.png">
+                        <collision-poly>
+                            <point x="0.011194" y="0.0196721" />
+                            <point x="0.5" y="0.00327869" />
+                            <point x="0.990672" y="0.0163934" />
+                            <point x="0.990672" y="0.983607" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00932836" y="0.983607" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Complete" sid="491693711262618">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434606966481388" speed="5">
+                    <frame duration="1" hotspotX="0.501247" hotspotY="0.500924" original-source="C:\Users\Anuj Ravi Rane\Documents\Worksheets\5th semester\IGP\SIH\IP explorer\SIH game assets\Maps\Extracted\Platformer\GUI\gui\widow\Window - Copy_52.png">
+                        <collision-poly>
+                            <point x="0.0972569" y="0.0720887" />
+                            <point x="0.498753" y="0.00184843" />
+                            <point x="0.902743" y="0.0720887" />
+                            <point x="0.975062" y="0.499076" />
+                            <point x="0.900249" y="0.926063" />
+                            <point x="0.498753" y="0.990758" />
+                            <point x="0.0997506" y="0.926063" />
+                            <point x="0.0124688" y="0.499076" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
