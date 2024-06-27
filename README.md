@@ -96,6 +96,10 @@ of IP infringement
   Encourage critical thinking and problemsolving skills
 </p>
 
+<h1> Flowchart</h1>
+
+![image](https://github.com/ankit7248/Enma-SIH/assets/101561408/e9fd6137-12ce-49c5-8857-7cb9c149f70f)
+
 
 
 
