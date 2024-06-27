@@ -75,6 +75,9 @@ intellectual property (e.g., Copyright Castle, Trademark Town, Patent Peak, Secr
 interactive tutorials, and mini-games.
 </p>
 
+![image](https://github.com/ankit7248/Enma-SIH/assets/101561408/d54ece0e-5050-4a48-bbb6-97ce2217f7d1)
+
+
 <h1> Educational Goals: </h1>
 
 <p>
