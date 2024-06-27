@@ -43,4 +43,9 @@ characters, map, and basic gameplay mechanics
   
 </p>
 
+<img width="817" alt="Screenshot 2023-09-29 180850" src="https://github.com/ankit7248/Enma-SIH/assets/101561408/62a5f36b-f364-493c-ad25-1ba8afae1565">
+
+
+
+
 
