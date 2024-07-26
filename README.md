@@ -5,6 +5,8 @@ application on Inteliectual Property Awareness for school students
 
 <hr> </hr>
 
+https://github.com/user-attachments/assets/00d0f950-3636-4d11-8779-88694e527345
+
 <h1> Idea /Concept </h1>
 <p>
 IP Explorer is an adventure-based mobile game that takes students on a journey to explore the
@@ -99,6 +101,12 @@ of IP infringement
 <h1> Flowchart</h1>
 
 ![image](https://github.com/ankit7248/Enma-SIH/assets/101561408/e9fd6137-12ce-49c5-8857-7cb9c149f70f)
+
+
+
+
+
+
 
 
 
